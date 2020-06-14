@@ -1,0 +1,455 @@
+/*font-family: 'Montserrat', sans-serif;*/
+
+*{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	margin: 0;
+	padding: 0;
+}
+/*Header Start*/
+
+header{
+	background-image: url(../images/banner.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;	
+	width: 100%;
+	margin-bottom: 45px;
+	
+}
+
+section{
+	padding: 90px 0;
+}
+
+.container{
+	width: 75%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.header{
+	margin: 40px 0;
+	overflow: hidden;
+}
+/*navbar start*/
+nav{
+	overflow: hidden;
+    margin: 0 auto;
+
+}
+
+.logo{
+	width: 16%;
+	float: left;
+	/*margin: 10px 0;*/
+}
+
+.menu{
+	width: 50%;
+	float: right;
+	margin-top: 10px;
+}
+
+.menu ul{
+	text-align: right;
+	padding-left: 0;
+}
+.menu ul li{
+	list-style:none;
+	display: inline-block;
+	margin: 0 10px;
+	border-bottom: 1.5px solid transparent;
+}
+
+.menu ul li:hover{
+	border-bottom: 1.5px solid white;
+	transition: 0.4s;
+}
+.menu ul li a{
+	font-size: 18px;
+	color: white;
+	text-decoration: none;
+}
+
+.menu ul li:last-child{
+	margin-right: 0;
+}
+/*navbar end*/
+
+/*banner start*/
+.banner{
+	text-align: center;
+	margin:115px 0;
+}
+
+.banner h3{
+	font-size:32px;
+	font-weight:300;
+	color: white;
+	margin-bottom: 40px;
+}
+
+.banner h1{
+	font-size: 66px;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 80px;
+}
+
+.banner button{
+	font-size: 23px;
+    font-weight: 700;
+    color: white;
+    background: transparent;
+    border: 1.5px solid white;
+    width: 265px;
+    height: 62px;
+    cursor:pointer;
+}
+
+.banner button:hover{
+	background-color:white;
+	color: gray;
+}
+.banner button:focus{
+	outline: none;
+}
+/*banner end*/
+
+/*Header End*/
+
+/*Web start*/
+
+
+.web{
+	overflow:hidden;
+}
+.details{
+	width:65%;
+	float:left;
+}
+
+.details p:last-child{
+	margin-top: 35px;
+}
+
+.image{
+	width: 30%;
+	float: right;
+}
+
+.image img{
+	width: 100%;
+}
+
+.title1{
+	font-size:60px;
+	font-weight:600;
+	color:#222222;
+	display: inline-block;
+	margin: 0 0 30px 0;
+}
+
+span{
+	font-size:60px;
+	font-weight:300;
+	}
+
+.text{
+	font-size:16px;
+	font-weight:400;
+	color:#777777;
+	line-height: 1.5;
+}
+/*web end*/
+
+/*branding start*/
+.branding{
+	background-color:#fafafa;
+	overflow: hidden;
+}
+
+
+.svc2 .details{
+	float:right;
+}
+
+.svc2 .image{
+	float:left;
+	margin-top: 75px;
+}
+/*brwnding end*/
+
+/*services start*/
+.services{
+	background-color: white;
+}
+
+.service1{
+	width:45%;
+	'padding: 5px;
+	overflow:hidden;
+	display: inline-block;
+	margin-bottom:30px;
+}
+
+.service1:nth-child(even){
+	float:right;
+	margin-left: 40px;
+}
+
+.service1 .images{
+	float: left;
+    width: 24%;
+    margin-top: 25px;
+}
+
+.service1 .images img{
+	width: 100%;
+}
+
+.service1 .describe{
+	float: right;
+    width: 75%;
+}
+
+.service1 .describe h1{
+	font-size:22px;
+	margin-bottom:10px;
+}
+
+
+/*services end*/
+
+/*customer start*/
+.customer{
+	text-align: center;
+	background-color:#fafafa;
+	
+}
+
+.customer h1{
+	margin-bottom: 10px;
+}
+
+.customer p{
+	font-size: 22px;
+	margin-bottom:40;
+}
+
+.client1{
+	overflow: hidden;
+	margin: 45px 0;
+}
+.c_images{
+	float: left;
+    width: 20%;
+    display: inline-block
+}
+
+.c_images img{
+	width: 100%;
+}
+
+.c_feedback{
+	background-image: url(../images/comment-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 75%;
+    height: 180px;
+    padding: 10px 10px 10px 20px;
+    float: right;
+    display: inline-block;
+    
+}
+
+.c_feedback p{
+	font-size: 26px;
+	color:#777777;
+	margin: 30px 0 40px 0;
+}
+
+.c_feedback p:last-child{
+	font-size: 20px;
+	color:#7690c5;
+	margin-top:15px;
+
+}
+
+.client2 .c_feedback{
+	float:left;
+}
+
+.client2 .c_images{
+	float:right;
+}
+
+.client2 .c_feedback{
+	background-image: url(../images/comment-2.png);
+	}
+/*customer end*
+/*partner start*/
+.partner{
+	text-align: center;
+	padding: 45px 0;
+}
+
+.partner_1 {
+	width: 15%;
+	display: inline-block;
+	margin: 0 20px;
+
+}
+
+.partner_1 img{
+	width: 100%;
+	height: 35px;
+}
+/*partner end*/
+
+/*Team Start*/
+.team{
+	background-color: black;
+	color:white;
+	text-align: center;
+}
+.team h1{
+	color:white;
+	margin-bottom: 0px;
+}
+.t_text{
+	font-weight: 300;
+	font-size: 22px;
+	color:#858585;
+	margin-bottom: 60px;
+	line-height: 1.5;
+}
+
+.members{
+	margin:0 auto;
+	margin-bottom: 35px;
+}
+.member1{    
+	width: 30%;
+    display: inline-block;
+}
+
+.member1:nth-child(2){
+	margin: 0 38px;
+}
+.member1 img{}
+.t_name{
+	font-weight: 700;
+    font-size: 16px;
+    margin: 10px 0;
+}
+.t_role{
+	font-weight: 400;
+    font-size: 16px;
+    color:#858585;
+    margin: 10px 0;
+}
+.contact i{
+	font-size:16px;
+	border: 3px solid white;
+    border-radius: 50%;
+    padding: 9px;
+    margin: 0 5px;
+    margin: 10px 0;
+    cursor:pointer;
+}
+
+.contact i:hover{
+	background-color:white;
+	color: gray;
+}
+/*Team End*/
+
+/*Contracts Start*/
+.contracts{
+	background-color:#7690c5;
+}
+.hello{
+	width: 45%;
+	color:white;
+	float:left;
+
+}
+.hello h1{
+	color: white;
+}
+.hello p{
+	font-weight: 300;
+    font-size: 18px;
+    color: white;
+    margin-bottom: 60px;
+    overflow:hidden;
+}
+
+.ct_info ul{
+	overflow: hidden;
+}
+.ct_info ul li{
+	font-size:18px;
+	color: white;
+	float:left;
+	cursor:pointer;
+	list-style: none;
+	margin-bottom:30px;
+}
+
+.ct_info ul li:nth-child(even){
+	float:right;
+
+}
+
+.ct_info ul li i{
+	font-size:25px;
+	margin-right: 10px;
+	text-align: left;
+}
+
+
+.form{
+	width:45%;
+	float:right;
+}
+
+.form input{
+	font-size:18px;
+	color:#bbbbbb;
+	width:460px;
+	height:55px;
+	text-align: left;
+	display:block;
+	padding-left:10px;
+	margin-bottom:25px;
+}
+
+textarea{
+	font-size:18px;
+	color:#bbbbbb;
+	width:460px;
+	height:212px;
+	text-align: left;
+	display:block;
+	padding:10px 0 0 10px;
+	margin-bottom:25px;
+}
+/*Contracts End*/
+
+/*footer start*/
+footer{
+	background-color:#7690c5;
+	border-top:1px solid white;
+	text-align: center;
+	
+}
+
+.footer{
+	font-size:16px;
+	color:white;
+	margin: 30px 0;
+}
+/*footer end*/
